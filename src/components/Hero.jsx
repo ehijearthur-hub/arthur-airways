@@ -2,7 +2,7 @@ import { siteConfig } from '../data/mockData.js'
 
 export default function Hero() {
   return (
-    <section className="relative flex h-[70vh] min-h-[420px] items-center justify-center overflow-hidden bg-navy-950 text-white">
+    <section className="relative flex h-[85vh] min-h-[420px] items-center justify-center overflow-hidden bg-navy-950 text-white">
       <video
         autoPlay
         loop
