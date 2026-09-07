@@ -1,21 +1,36 @@
-import Navbar from '../src/components/Navbar';
-import Footer from '../src/components/Footer';
-import Hero from '../src/components/Hero';
-import SearchWidget from './components/SearchWidget';
-import PopularDestinations from './components/PopularDestinations';
-import WorldMap from './components/WorldMap';
+import { Routes, Route, Outlet } from 'react-router-dom'
+import Navbar from './components/Navbar.jsx'
+import Footer from './components/Footer.jsx'
+import ScrollToHash from './components/ScrollToHash.jsx'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import SearchResults from './pages/SearchResults.jsx'
+import Booking from './pages/Bookings.jsx'
+import MyTrips from './pages/MyTrips.jsx'
 
-const App = () => {
+function SiteLayout() {
   return (
-    <div>
+    <>
       <Navbar />
-      <Hero />
-      <SearchWidget />
-      <PopularDestinations />
-      <WorldMap />
+      <Outlet />
       <Footer />
-    </div>
+    </>
   )
 }
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <ScrollToHash />
+      <Routes>
+        <Route element={<SiteLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/search" element={<SearchResults />} />
+          <Route path="/my-trips" element={<MyTrips />} />
+        </Route>
+        <Route path="/booking/:flightId" element={<Booking />} />
+      </Routes>
+    </>
+  )
+}

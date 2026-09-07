@@ -20,7 +20,7 @@ export default function PopularDestinations() {
   }, [paused, next])
 
   return (
-    <section className="px-6 py-16 md:px-12">
+    <section id="popular-destinations" className="px-6 py-16 md:px-12">
       <h2 className="mb-8 text-center text-2xl font-bold text-navy-900">Popular Destinations</h2>
 
       <div

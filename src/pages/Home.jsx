@@ -1,12 +1,17 @@
-import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+import SearchWidget from '../components/SearchWidget';
+import PopularDestinations from '../components/PopularDestinations';
+import WorldMap from '../components/WorldMap';
 
 const Home = () => {
-    return (
-        <>
-         <Footer/>
-        </>
-    )
+  return (
+    <>
+      <Hero />
+      <SearchWidget />
+      <PopularDestinations />
+      <WorldMap />
+    </>
+  )
 }
-
 
 export default Home;

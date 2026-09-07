@@ -3,11 +3,11 @@ import { siteConfig } from '../data/mockData';
 
 const linkPaths = {
     Home: '/',
-    Explore: '/search',
+    Explore: '/#popular-destinations',
     Flights: '/search',
     'My Trips': '/my-trips',
-    'Flight Status': '/search',
-    Help: '/'
+    About: '/about',
+    Help: '/#footer',
 }
 
 export default function Navbar() {
