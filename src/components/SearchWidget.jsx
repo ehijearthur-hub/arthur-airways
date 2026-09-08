@@ -19,7 +19,7 @@ export default function SearchWidget() {
     }
 
     return (
-        <form onSubmit={handleSearch} className="relative z-10 mx-auto -mt-16 w-[92%] max-w-4xl rounded-2xl bg-white p-6 shadow-xl md:p-8 md:max-w-6xl">
+        <form onSubmit={handleSearch} className="relative z-10 mx-auto -mt-16 w-[92%] max-w-4xl rounded-2xl bg-white p-6 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:ring-1 hover:ring-gold-400/40 md:p-8 md:max-w-6xl">
             <div className="mb-4 flex gap-6 text-sm font-medium text-slate-500">
                 {siteConfig.tripTypes.map((type) => (
                     <button type="button" key={type} onClick={() => setTripType(type)} className={`border-b-2 pb-1 ${tripType === type ? 'border-gold-500 text-navy-900' : 'border-transparent'}`}>
