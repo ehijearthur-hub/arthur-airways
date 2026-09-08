@@ -91,7 +91,7 @@ export default function Booking() {
             <>
               <h1 className="mb-1 text-2xl font-bold text-navy-900">Passenger Information</h1>
               <p className="mb-6 text-sm text-slate-500">Please ensure all details match exactly as they appear on your government-issued ID.</p>
-              <PassengerForm data={passenger} onChange={setPassenger} onContinue={() => setStep('Seat')} passengers={passengers} />
+              <PassengerForm data={passenger} onChange={setPassenger} onContinue={() => setStep('Seat')} onBack={() => navigate(-1)} passengers={passengers} />
             </>
           )}
           {step === 'Seat' && (
