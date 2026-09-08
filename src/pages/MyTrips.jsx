@@ -42,7 +42,7 @@ export default function MyTrips() {
                   <p className="text-xs text-slate-400">{new Date(flight.departureTime).toLocaleString()}</p>
                   <p className="text-xs text-slate-400">Ref: {booking.bookingReference}</p>
                   {booking.totalPrice != null && (
-                    <p className="mt-1 text-xs text-slate-400">Total paid: ${Number(booking.totalPrice).toFixed(2)}</p>
+                    <p className="mt-1 text-xs font-bold">Total paid: ${Number(booking.totalPrice).toFixed(2)}</p>
                   )}
                 </div>
                 <span className={`rounded-full px-3 py-1 text-xs font-medium ${statusStyle[booking.status] || ''}`}>

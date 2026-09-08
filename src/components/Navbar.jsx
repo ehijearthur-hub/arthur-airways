@@ -8,7 +8,6 @@ const linkPaths = {
   Flights: '/search',
   'My Trips': '/my-trips',
   'About The Creator': '/about',
-  Help: '/#footer',
 }
 
 export default function Navbar() {
@@ -30,7 +29,6 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-4 md:flex">
-          <button className="text-sm font-medium text-slate-700 hover:text-navy-900">Sign In</button>
           <Link to="/search" className="rounded-full bg-gold-400 px-5 py-2 text-sm font-semibold text-navy-900 hover:bg-gold-500">
             Book a Flight
           </Link>
@@ -55,7 +53,6 @@ export default function Navbar() {
               {link}
             </Link>
           ))}
-          <button className="text-left text-sm font-medium text-slate-700 hover:text-navy-900">Sign In</button>
           <Link to="/search" onClick={() => setOpen(false)} className="rounded-full bg-gold-400 px-5 py-2 text-center text-sm font-semibold text-navy-900 hover:bg-gold-500">
             Book a Flight
           </Link>

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { flights, airports } from '../data/mockData.js'
 import FlightCard from '../components/FlightCard.jsx'
+import { FiChevronDown } from 'react-icons/fi'
 
 function economyPrice(flight) {
   return flight.cabinClasses.find((c) => c.type === 'Economy')?.price ?? flight.cabinClasses[0].price
@@ -83,16 +84,14 @@ export default function SearchResults() {
   ]
 
   return (
-    <div className="px-6 py-8 md:px-12">
+    <div className="px-6 py-8 md:px-12 max-w-5xl mx-auto">
       <div className="mb-2 flex flex-wrap items-center justify-between gap-4">
         <h1 className="text-3xl font-bold text-navy-900">
           {fromAirport ? `${fromAirport.city} (${fromAirport.code})` : from || '?'}
           {' '}✈{' '}
           {toAirport ? `${toAirport.city} (${toAirport.code})` : to || '?'}
         </h1>
-        <button onClick={() => navigate('/')} className="rounded-full border border-slate-300 px-5 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50">
-          Modify Search
-        </button>
+
       </div>
       <p className="mb-8 text-sm text-slate-500">
         {depart}{returnDate ? ` - ${returnDate}` : ''} · {passengers} Passenger{passengers !== 1 ? 's' : ''}, {cabinClass}
@@ -125,7 +124,8 @@ export default function SearchResults() {
             onClick={() => setVisibleCount((c) => c + 5)}
             className="rounded-full border border-slate-300 px-6 py-2 text-sm font-semibold text-slate-600 hover:bg-slate-50"
           >
-            ⌄ Load More Flights
+            <FiChevronDown className="inline-block mr-2" />
+            Load More Flights
           </button>
         </div>
       )}
