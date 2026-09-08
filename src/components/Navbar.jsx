@@ -7,7 +7,7 @@ const linkPaths = {
   Explore: '/#popular-destinations',
   Flights: '/search',
   'My Trips': '/my-trips',
-  About: '/about',
+  'About The Creator': '/about',
   Help: '/#footer',
 }
 

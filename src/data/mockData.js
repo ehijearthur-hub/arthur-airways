@@ -27,7 +27,7 @@ export const siteConfig = {
   heroTagline: "Your Journey Starts Here",
   heroSubtext:
     "Experience the perfect blend of heritage reliability and modern luxury. Fly with Arthur Airways.",
-  navLinks: ["Home", "Explore", "Flights", "My Trips", "About", "Help"],
+  navLinks: ["Home", "Explore", "Flights", "My Trips", "About The Creator", "Help"],
   tripTypes: ["Round Trip", "One Way", "Multi-City"],
   searchFields: ["From", "To", "Dates", "Passengers & Class"],
 };

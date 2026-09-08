@@ -23,8 +23,8 @@ export default function Booking() {
   const flight = flights.find((f) => f.id === flightId)
   const passengers = parseInt(searchParams.get('passengers'), 10) || 1
 
-  useEffect(() => { window.scrollTo(0, 0) }, [step])
   const [step, setStep] = useState('Passenger')
+  useEffect(() => { window.scrollTo(0, 0) }, [step])
   const [passenger, setPassenger] = useState({
     firstName: '', lastName: '', dob: '', gender: '', nationality: '', passportNumber: '',
     email: '', countryCode: '+1', phone: '',
