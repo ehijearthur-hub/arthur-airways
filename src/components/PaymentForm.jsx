@@ -1,6 +1,6 @@
 import { usePaystackPayment } from 'react-paystack'
 
-const PAYSTACK_CURRENCY = 'NGN' // switch to 'USD' only if your Paystack dashboard has USD settlement enabled
+const PAYSTACK_CURRENCY = 'NGN' 
 
 export default function PaymentForm({ total, email, onBack, onPay }) {
   const config = {
