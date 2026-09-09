@@ -29,7 +29,7 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-4 md:flex">
-          <Link to="/search" className="rounded-full bg-gold-400 px-5 py-2 text-sm font-semibold text-navy-900 hover:bg-gold-500">
+          <Link to="/search" className="animate-bounce rounded-full bg-gold-400 px-5 py-2 text-sm font-semibold text-navy-900 hover:bg-gold-500">
             Book a Flight
           </Link>
         </div>
@@ -53,7 +53,7 @@ export default function Navbar() {
               {link}
             </Link>
           ))}
-          <Link to="/search" onClick={() => setOpen(false)} className="rounded-full bg-gold-400 px-5 py-2 text-center text-sm font-semibold text-navy-900 hover:bg-gold-500">
+          <Link to="/search" onClick={() => setOpen(false)} className="animate-bouncerounded-full bg-gold-400 px-5 py-2 text-center text-sm font-semibold text-navy-900 hover:bg-gold-500">
             Book a Flight
           </Link>
         </div>
