@@ -4,7 +4,7 @@ export default function BookStepper({ current }) {
     const currentIndex = steps.indexOf(current)
 
     return (
-        <div className="mb-10 flex items-center justify-center gap-2">
+        <div className="mb-10 flex items-center justify-center gap-0 md:gap-2">
             {steps.map((label, i) => {
                 const done = i === 0 || i < currentIndex
                 const active = i === currentIndex

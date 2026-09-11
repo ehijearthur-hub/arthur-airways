@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function DestinationCard({ destination }) {
     return (
         <div className="overflow-hidden rounded-2xl shadow-lg">
-            <img src={destination.image} alt={destination.city} className="h-56 w-full object-cover" />
+            <img src={destination.image} alt={destination.imageAlt} className="h-56 w-full object-cover" />
             <div className="bg-navy-900 p-4 text-white">
                 <div className="flex items-center justify-between">
                     <div>

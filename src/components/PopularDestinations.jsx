@@ -34,7 +34,7 @@ export default function PopularDestinations() {
         >
           {popular.map((d) => (
             <div key={d.id} className="relative w-full flex-shrink-0">
-              <img src={d.image} alt={d.city} className="h-72 w-full object-cover md:h-96" />
+              <img src={d.image} alt={d.imageAlt} className="h-72 w-full object-cover md:h-96" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-950/85 via-navy-950/10 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 flex items-end justify-between p-6 text-white">
                 <div>

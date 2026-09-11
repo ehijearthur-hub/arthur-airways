@@ -142,7 +142,10 @@ export const destinations = [
     country: "France",
     continent: "Europe",
     airportCode: "CDG",
-    image: "https://picsum.photos/seed/paris-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tour_Eiffel_Wikimedia_Commons.jpg",
+    imageAlt:
+      "Eiffel Tower, Paris — Wikimedia Commons: commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
     gallery: [
       "https://picsum.photos/seed/paris-1/400/300",
       "https://picsum.photos/seed/paris-2/400/300",
@@ -163,7 +166,10 @@ export const destinations = [
     country: "Japan",
     continent: "Asia",
     airportCode: "NRT",
-    image: "https://picsum.photos/seed/tokyo-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo_Tower_and_Skyscrapers_from_Shibuya_Sky_Observation_Deck_(53416648661).jpg",
+    imageAlt:
+      "Tokyo Tower and skyline from Shibuya Sky — Wikimedia Commons: commons.wikimedia.org/wiki/File:Tokyo_Tower_and_Skyscrapers_from_Shibuya_Sky_Observation_Deck_(53416648661).jpg",
     gallery: [
       "https://picsum.photos/seed/tokyo-1/400/300",
       "https://picsum.photos/seed/tokyo-2/400/300",
@@ -184,7 +190,10 @@ export const destinations = [
     country: "United States",
     continent: "North America",
     airportCode: "JFK",
-    image: "https://picsum.photos/seed/newyork-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_liberty_and_nyc_skyline.jpg",
+    imageAlt:
+      "Statue of Liberty and NYC skyline — Wikimedia Commons: commons.wikimedia.org/wiki/File:Statue_of_liberty_and_nyc_skyline.jpg",
     gallery: [
       "https://picsum.photos/seed/newyork-1/400/300",
       "https://picsum.photos/seed/newyork-2/400/300",
@@ -205,7 +214,10 @@ export const destinations = [
     country: "Indonesia",
     continent: "Asia",
     airportCode: "DPS",
-    image: "https://picsum.photos/seed/bali-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tegallalang_Rice_Terraces_Bali_1.jpg",
+    imageAlt:
+      "Tegallalang Rice Terraces, Bali — Wikimedia Commons: commons.wikimedia.org/wiki/File:Tegallalang_Rice_Terraces_Bali_1.jpg",
     gallery: [
       "https://picsum.photos/seed/bali-1/400/300",
       "https://picsum.photos/seed/bali-2/400/300",
@@ -226,7 +238,10 @@ export const destinations = [
     country: "South Africa",
     continent: "Africa",
     airportCode: "CPT",
-    image: "https://picsum.photos/seed/capetown-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Cape_Town_skyline_with_Table_Mountain.jpg",
+    imageAlt:
+      "Cape Town skyline with Table Mountain — Wikimedia Commons: commons.wikimedia.org/wiki/File:Cape_Town_skyline_with_Table_Mountain.jpg",
     gallery: [
       "https://picsum.photos/seed/capetown-1/400/300",
       "https://picsum.photos/seed/capetown-2/400/300",
@@ -247,7 +262,10 @@ export const destinations = [
     country: "Greece",
     continent: "Europe",
     airportCode: "JTR",
-    image: "https://picsum.photos/seed/santorini-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Panoramic_view_of_Oia,_Santorini_island_(Thira),_Greece.jpg",
+    imageAlt:
+      "Oia village, Santorini — Wikimedia Commons: commons.wikimedia.org/wiki/File:Panoramic_view_of_Oia,_Santorini_island_(Thira),_Greece.jpg",
     gallery: [
       "https://picsum.photos/seed/santorini-1/400/300",
       "https://picsum.photos/seed/santorini-2/400/300",
@@ -268,7 +286,10 @@ export const destinations = [
     country: "Brazil",
     continent: "South America",
     airportCode: "GIG",
-    image: "https://picsum.photos/seed/rio-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+    imageAlt:
+      "Christ the Redeemer, Rio de Janeiro — Wikimedia Commons: commons.wikimedia.org/wiki/File:Christ_the_Redeemer_-_Cristo_Redentor.jpg",
     gallery: [
       "https://picsum.photos/seed/rio-1/400/300",
       "https://picsum.photos/seed/rio-2/400/300",
@@ -289,7 +310,10 @@ export const destinations = [
     country: "Australia",
     continent: "Oceania",
     airportCode: "SYD",
-    image: "https://picsum.photos/seed/sydney-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney_Opera_House_and_Harbour_Bridge_Dusk_(3)_2019-06-21.jpg",
+    imageAlt:
+      "Sydney Opera House and Harbour Bridge — Wikimedia Commons: commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge_Dusk_(3)_2019-06-21.jpg",
     gallery: [
       "https://picsum.photos/seed/sydney-1/400/300",
       "https://picsum.photos/seed/sydney-2/400/300",
@@ -310,7 +334,10 @@ export const destinations = [
     country: "United Arab Emirates",
     continent: "Asia",
     airportCode: "DXB",
-    image: "https://picsum.photos/seed/dubai-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+    imageAlt:
+      "Burj Khalifa and Dubai skyline — Wikimedia Commons: commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
     gallery: [
       "https://picsum.photos/seed/dubai-1/400/300",
       "https://picsum.photos/seed/dubai-2/400/300",
@@ -331,7 +358,10 @@ export const destinations = [
     country: "Iceland",
     continent: "Europe",
     airportCode: "KEF",
-    image: "https://picsum.photos/seed/reykjavik-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Hallgrimskirkja_Reykjavik.jpg",
+    imageAlt:
+      "Hallgrímskirkja, Reykjavik — Wikimedia Commons: commons.wikimedia.org/wiki/File:Hallgrimskirkja_Reykjavik.jpg",
     gallery: [
       "https://picsum.photos/seed/reykjavik-1/400/300",
       "https://picsum.photos/seed/reykjavik-2/400/300",
@@ -352,7 +382,10 @@ export const destinations = [
     country: "Nigeria",
     continent: "Africa",
     airportCode: "LOS",
-    image: "https://picsum.photos/seed/lagos-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Lekki_linked_Ikoyi_Bridge.jpg",
+    imageAlt:
+      "Lekki-Ikoyi Link Bridge, Lagos — Wikimedia Commons: commons.wikimedia.org/wiki/File:Lekki_linked_Ikoyi_Bridge.jpg",
     gallery: [
       "https://picsum.photos/seed/lagos-1/400/300",
       "https://picsum.photos/seed/lagos-2/400/300",
@@ -373,7 +406,10 @@ export const destinations = [
     country: "United Kingdom",
     continent: "Europe",
     airportCode: "LHR",
-    image: "https://picsum.photos/seed/london-travel/800/600",
+    image:
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Tower_bridge_London_Twilight_-_November_2006.jpg",
+    imageAlt:
+      "Tower Bridge at twilight, London — Wikimedia Commons: commons.wikimedia.org/wiki/File:Tower_bridge_London_Twilight_-_November_2006.jpg",
     gallery: [
       "https://picsum.photos/seed/london-1/400/300",
       "https://picsum.photos/seed/london-2/400/300",
@@ -1058,12 +1094,37 @@ export const bookings = [
 ];
 
 export const addOns = [
-  { id: 'bag', name: 'Extra Checked Bag', description: 'Up to 23kg', price: 45 },
-  { id: 'priority', name: 'Priority Boarding', description: 'Board before general seating', price: 20 },
-  { id: 'insurance', name: 'Travel Insurance', description: 'Trip cancellation & medical coverage', price: 35 },
-  { id: 'meal', name: 'Meal Upgrade', description: 'Premium in-flight meal selection', price: 15 },
-  { id: 'wifi', name: 'In-Flight WiFi', description: 'Stay connected the whole flight', price: 12 },
-]
+  {
+    id: "bag",
+    name: "Extra Checked Bag",
+    description: "Up to 23kg",
+    price: 45,
+  },
+  {
+    id: "priority",
+    name: "Priority Boarding",
+    description: "Board before general seating",
+    price: 20,
+  },
+  {
+    id: "insurance",
+    name: "Travel Insurance",
+    description: "Trip cancellation & medical coverage",
+    price: 35,
+  },
+  {
+    id: "meal",
+    name: "Meal Upgrade",
+    description: "Premium in-flight meal selection",
+    price: 15,
+  },
+  {
+    id: "wifi",
+    name: "In-Flight WiFi",
+    description: "Stay connected the whole flight",
+    price: 12,
+  },
+];
 
 // ----------------------------------------------------------------
 // ABOUT THE CREATOR — for an "About Me" page or section.
